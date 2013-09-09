@@ -1,0 +1,27 @@
+{
+    "name":         "edlcdmc/common-bundle",
+    "description":  "My common bundle",
+    "keywords":     ["symfony2"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Edlcdmc",
+            "email":    "edlcdmc@gmail.com"
+        }
+    ],
+    "require":      {
+        "symfony/framework-bundle": "~2.3",
+        "jms/security-extra-bundle": "1.5.*@dev",
+        "jms/di-extra-bundle": "1.4.*@dev",
+        "edlcdmc/lib-phpthumb": "dev-master",
+        "edlcdmc/edlcdmc-generator-bundle": "dev-master",
+        "ideup/simple-paginator-bundle": "dev-master",
+        "beberlei/doctrineextensions": "dev-master",
+        "knplabs/knp-menu-bundle": "1.1.*@dev"
+    },
+    "autoload":     {
+        "psr-0": { "Edlcdmc\\Bundle\\CommonBundle": "" }
+    },
+    "target-dir": "Edlcdmc/Bundle/CommonBundle"
+}

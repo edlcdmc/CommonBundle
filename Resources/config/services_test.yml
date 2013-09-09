@@ -1,0 +1,7 @@
+parameters:
+#    edlcdmc_common.example.class: Edlcdmc\Bundle\CommonBundle\Example
+
+services:
+#    edlcdmc_common.example:
+#        class: %edlcdmc_common.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
