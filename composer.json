@@ -11,14 +11,7 @@
         }
     ],
     "require":      {
-        "symfony/framework-bundle": "~2.3",
-        "jms/security-extra-bundle": "1.5.*@dev",
-        "jms/di-extra-bundle": "1.4.*@dev",
-        "edlcdmc/lib-phpthumb": "dev-master",
-        "edlcdmc/edlcdmc-generator-bundle": "dev-master",
-        "ideup/simple-paginator-bundle": "dev-master",
-        "beberlei/doctrineextensions": "dev-master",
-        "knplabs/knp-menu-bundle": "1.1.*@dev"
+        "symfony/framework-bundle": "~2.3"
     },
     "autoload":     {
         "psr-0": { "Edlcdmc\\Bundle\\CommonBundle": "" }
